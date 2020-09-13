@@ -78,8 +78,8 @@ def check_mail():
 		serv = 'smtp-mail.outlook.com'
 		port = 587
 	elif int(ServerSmtp) == 3:
-		serv = 'smtm.mail.yahoo.com'
-		port = 587
+		serv = 'smtp.mail.yahoo.com'
+		port = 465
 	elif int(ServerSmtp) == 4:
 		serv = 'smtm.mail.att.net'
 		port = 465

